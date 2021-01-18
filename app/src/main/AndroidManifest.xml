@@ -16,8 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".안드로이드_Essential.Listener01">
-        </activity>
+        <activity android:name=".안드로이드_Essential.Listener01"></activity>
+        <activity android:name=".안드로이드_Essential.FragmentActivity"></activity>
+        <activity android:name=".안드로이드_Essential.OpenInternetSolve"></activity>
+        <activity android:name=".안드로이드_Essential.OpenInternet" />
+        <activity android:name=".안드로이드_Essential.Intent2" />
+        <activity android:name=".안드로이드_Essential.Intent1" />
         <activity android:name=".MainActivity" />
     </application>
 
