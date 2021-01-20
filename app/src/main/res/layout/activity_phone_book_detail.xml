@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".안드로이드_Essential.PhoneBookDetailActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="전화번호부 상세"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C3F489"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <ImageView
+                android:id="@+id/detail_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                tools:src="@drawable/jin01" />
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/detail_image"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:weightSum="10">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/icon"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="45dp"-->
+<!--                    android:layout_margin="10dp"-->
+<!--                    android:layout_weight="2"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:src="@drawable/contacts_icon" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:layout_margin="10dp"-->
+<!--                    android:layout_weight="8"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:textColor="#000000"-->
+<!--                    android:textSize="18dp"-->
+<!--                    tools:text="010-9999-9999" />-->
+<!--            </LinearLayout>-->
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#000000" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="이름"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/detail_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="start"
+                    android:padding="8dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    tools:text="김아무개" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="전화번호"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/detail_number"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:gravity="start"
+                    android:padding="8dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    tools:text="010-0000-0000" />
+
+                <ImageView
+                    android:id="@+id/detail_call"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|start"
+                    android:layout_weight="2"
+                    android:src="@drawable/call_icon" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

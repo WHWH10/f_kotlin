@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myapplication">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,16 +15,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".안드로이드_Essential.Calculator02">
+        <activity android:name=".안드로이드_Essential.ListViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".안드로이드_Essential.Listener01"></activity>
-        <activity android:name=".안드로이드_Essential.FragmentActivity"></activity>
-        <activity android:name=".안드로이드_Essential.OpenInternetSolve"></activity>
+        <activity android:name=".안드로이드_Essential.PhoneBookDetailSolveActivity" />
+        <activity android:name=".안드로이드_Essential.PhoneBookSolveActivity"></activity>
+        <activity android:name=".안드로이드_Essential.PhoneBookDetailActivity" />
+        <activity android:name=".안드로이드_Essential.PhoneBookActivity">
+        </activity>
+        <activity android:name=".안드로이드_Essential.AddViewActivity" />
+        <activity android:name=".안드로이드_Essential.LibraryActivity" />
+        <activity android:name=".안드로이드_Essential.ThreadActivity" />
+        <activity android:name=".안드로이드_Essential.Context" />
+        <activity android:name=".안드로이드_Essential.NullSafety" />
+        <activity android:name=".안드로이드_Essential.Resource" />
+        <activity android:name=".안드로이드_Essential.Calculator02" />
+        <activity android:name=".안드로이드_Essential.Listener01" />
+        <activity android:name=".안드로이드_Essential.FragmentActivity" />
+        <activity android:name=".안드로이드_Essential.OpenInternetSolve" />
         <activity android:name=".안드로이드_Essential.OpenInternet" />
         <activity android:name=".안드로이드_Essential.Intent2" />
         <activity android:name=".안드로이드_Essential.Intent1" />
