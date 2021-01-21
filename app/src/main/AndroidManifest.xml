@@ -14,19 +14,26 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".안드로이드_Essential.ListViewActivity">
+        android:theme="@style/App_Theme_No_ACTION_BAR">
+        <activity android:name=".안드로이드_Essential.AsyncTaskActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".안드로이드_Essential.PhoneBookDetailSolveActivity" />
-        <activity android:name=".안드로이드_Essential.PhoneBookSolveActivity"></activity>
-        <activity android:name=".안드로이드_Essential.PhoneBookDetailActivity" />
-        <activity android:name=".안드로이드_Essential.PhoneBookActivity">
+        <activity android:name=".안드로이드_Essential.RealmActivity">
         </activity>
+        <activity android:name=".안드로이드_Essential.SharedPreferenceActivity"></activity>
+        <activity android:name=".안드로이드_Essential.TabPager2Activity" />
+        <activity android:name=".안드로이드_Essential.TabPagerActivity" />
+        <activity android:name=".안드로이드_Essential.PhoneBookRecyclerViewActivity" />
+        <activity android:name=".안드로이드_Essential.RecyclerViewActivity" />
+        <activity android:name=".안드로이드_Essential.ListViewActivity" />
+        <activity android:name=".안드로이드_Essential.PhoneBookDetailSolveActivity" />
+        <activity android:name=".안드로이드_Essential.PhoneBookSolveActivity" />
+        <activity android:name=".안드로이드_Essential.PhoneBookDetailActivity" />
+        <activity android:name=".안드로이드_Essential.PhoneBookActivity" />
         <activity android:name=".안드로이드_Essential.AddViewActivity" />
         <activity android:name=".안드로이드_Essential.LibraryActivity" />
         <activity android:name=".안드로이드_Essential.ThreadActivity" />
