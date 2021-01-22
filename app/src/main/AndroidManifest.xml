@@ -7,6 +7,7 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA"/>
 
     <application
         android:allowBackup="true"
@@ -14,17 +15,22 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/App_Theme_No_ACTION_BAR">
-        <activity android:name=".안드로이드_Essential.AsyncTaskActivity">
+        android:theme="@style/App_Theme_No_ACTION_BAR"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".안드로이드_Essential.PermissionActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".안드로이드_Essential.RealmActivity">
+        <activity android:name=".안드로이드_Essential.RetrofitActivity">
         </activity>
-        <activity android:name=".안드로이드_Essential.SharedPreferenceActivity"></activity>
+        <activity android:name=".안드로이드_Essential.NetworkSolveActivity"></activity>
+        <activity android:name=".안드로이드_Essential.NetworkActivity" />
+        <activity android:name=".안드로이드_Essential.AsyncTaskActivity" />
+        <activity android:name=".안드로이드_Essential.RealmActivity" />
+        <activity android:name=".안드로이드_Essential.SharedPreferenceActivity" />
         <activity android:name=".안드로이드_Essential.TabPager2Activity" />
         <activity android:name=".안드로이드_Essential.TabPagerActivity" />
         <activity android:name=".안드로이드_Essential.PhoneBookRecyclerViewActivity" />
