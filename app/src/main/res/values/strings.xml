@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="hello">안녕하세요.오랜만입니다.</string>
+    <string-array name="jin_url">
+        <item>https://pbs.twimg.com/profile_images/998826364374401029/JJEVz55B_400x400.jpg</item>
+        <item>https://www.animals.or.kr/api/files/images/54392-41f92f73-d240-480b-ba6a-a463639944ae.jpeg</item>
+        <item>https://lh3.googleusercontent.com/proxy/NbbM481C32N0myKHOzSS9MS5hPBZpNx0pI-KYUoyTjHlTNlK9s-ZqEMTLgrFEdFe-GEDYoaTVzqv29DU7uNYh6JVJ5mbxT36SVZzYd8zUHLe0Wqwguu6kqq8ygztGzNa4_rb0ibsWZv6etYvV36uFBA7UwD_ioq5B-2dN9N11PLxKPUiNsjW1sc9XjR5Ijje45ycFl7_dHpHNibAK_T4FptOwHBS6-HaZpPb19oe1ySfPyGqQIz-PU4ru1wkAPwoEk9B9zv5fMEbjexP-C3gozJcjAIf7Nymyd44KWoRJ6G5-k1CQTka</item>
+        <item>https://thumb.mtstarnews.com/06/2020/12/2020122508042509773_1.jpg/dims/optimize</item>
+        <item>https://ojsfile.ohmynews.com/STD_IMG_FILE/2021/0110/IE002745806_STD.jpg</item>
+        <item>https://4.bp.blogspot.com/-nbQkdUyiZ6A/W4urH7_Z3hI/AAAAAAAAAMg/PtJNMeVEL585TxswSS0GBMr3DN_P21WXwCLcBGAs/s1600/99A9E4345ADC838A0D.png</item>
+        <item>https://t1.daumcdn.net/cfile/tistory/995112375ED055941F</item>
+        <item>https://lh3.googleusercontent.com/proxy/SJe6fMMH51GtAEcyZNAbAUlFmRxhVOcggQbm8Nc03h7qmns84TJq1-OaYTlcm9j3p9Me05vHxxGpkYbNx1cNmErUxpY6XD5qeHKHQ2xaEXESVdUg9F4OwccLtqV62SJ1fA_BkV0HtN3k2uy1WjGo-jSMt59ofeHbuSAoO0P96YtwkpIzRZ-HjhwcDhlhLmDusVFSXHDrKEEoYoybQWMkfwu3IDOaqqJfIe5S59LYl-zr3ZmJ27kTGXmbJS2gpBGo35LyrWoZ6BVz_fbxWgHt1dRz9sBcC32sXaCuNOVeyDz_CpQztm5mbQ</item>
+        <item>https://pbs.twimg.com/media/EsBbMe8XcAAaKsj.jpg</item>
+        <item>https://t1.daumcdn.net/cfile/tistory/99642B495CBE7C7B34</item>
+    </string-array>
 </resources>

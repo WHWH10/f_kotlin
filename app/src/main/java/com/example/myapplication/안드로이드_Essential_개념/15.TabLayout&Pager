@@ -1,0 +1,13 @@
+//210121
+
+// TabLayout, Pager
+
+// material design implementation 사용 : 버전 확인 후 build.gradle 추가
+// Pager
+// - 종이 넘기듯이 화면을 넘겨주는 역할
+
+// TabLayout
+// - tab 담당하는 역할
+
+// Adapter
+// - TabLayout 과 Pager 연결해주는 역할
